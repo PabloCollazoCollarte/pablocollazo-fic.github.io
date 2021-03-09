@@ -9,4 +9,4 @@ RUN apt update &&\
     python3 -m pip install requests &&\
     cd .. &&\
     python3 gitHubApiCaller.py ./my_git_hub_spider/github.csv ./githubWithCommits.csv
-CMD ["cat", "githubWithCommits.csv"]
+CMD ["ls"]
